@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13160D342821001D00634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160D332821001D00634997 /* main.cpp */; };
+		13160D3C2821004000634997 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160D3B2821004000634997 /* QuickSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		13160D302821001D00634997 /* 7_quickSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7_quickSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		13160D332821001D00634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160D3A2821004000634997 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		13160D3B2821004000634997 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		13160D322821001D00634997 /* 7_quickSort */ = {
 			isa = PBXGroup;
 			children = (
-				13160D332821001D00634997 /* main.cpp */,
+				13160D3B2821004000634997 /* QuickSort.cpp */,
+				13160D3A2821004000634997 /* QuickSort.h */,
 			);
 			path = 7_quickSort;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13160D342821001D00634997 /* main.cpp in Sources */,
+				13160D3C2821004000634997 /* QuickSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
